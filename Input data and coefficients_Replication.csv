@@ -1,0 +1,16 @@
+Parameter,Category,RHS_Limit,Description,NPV_Coefficient,Rotation_Age_t,Avg_Price_P,Volume_Growth_G,Soil_Group,Water_Coeff_Wi
+X1_Oak,Species,,,2206.878,80,18.23,205,PG,1
+X2_Elm,Species,,,4653.042,80,25.12,200,PG,1
+X3_Ash,Species,,,2623.883,80,20.93,208,FB,1.5
+X4_Maple,Species,,,4319.964,80,22.84,205,FB,1.5
+X5_BaldCypress,Species,,,8064.667,40,18.23,215,PG,0.5
+N_VARS,Constraint,5,Total number of decision variables,,,,,,
+DISCOUNT_RATE,Constraint,0.05,Discount rate (i),,,,,,
+LABOR_COEFF,Constraint,0.065,C5: Labor coefficient per ha,,,,,,
+LABOR_MIN,Constraint,32,C5: Minimum labor required (RHS),,,,,,
+AREA_PSEUDOGLEY,Constraint,355.58,C6: Max area for PG soil (RHS),,,,,,
+AREA_FORREST_BROWN,Constraint,151.27,C7: Max area for FB soil (RHS),,,,,,
+COST_COEFF,Constraint,1200,C9: Plantation cost coefficient per ha,,,,,,
+COST_MAX,Constraint,608220,C9: Maximum total cost (RHS),,,,,,
+NPV_MIN,Constraint,2294159.077,C8: Minimum total NPV (RHS),,,,,,
+WATER_MAX_POLICY,Constraint,300,C10: Policy limit for Water Constraint (RHS),,,,,,
